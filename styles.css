@@ -1,0 +1,82 @@
+body {
+    background-image: url(ripples.png);
+    font-family: 'Oswald', sans-serif;
+}
+
+#wrapper {
+    width: 1000px;
+    background-color: #00B4CC;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    background-color: #e7e7e7;
+    padding: 10px;
+}
+
+header img {
+    width: 120px;
+    float: left;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(11, 192, 11);
+    padding-top: 10px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FC9F69;
+    font-weight: bold;
+    display: inline-block;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: #FC9F69;
+    color: #00B4CC;
+}
+
+#left-content {
+    float: left;
+    width: 470px;
+    padding-left: 20px;
+    color: #FC9F69;
+    font-weight: bold;
+}
+
+#right-content {
+    float: right;
+    width: 470px;
+    border-left: 2px solid black;
+    margin-bottom: 20px;
+}
+
+#right-content iframe {
+    margin-left: 24px;
+}
+
+footer {
+    clear: both;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    height: 50px;
+    background-color: grey;
+}
+
+footer p {
+    padding-top: 15px;
+}
